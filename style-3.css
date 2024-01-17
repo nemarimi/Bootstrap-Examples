@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (max-width:992px) {
+    .container{
+        max-width: 992px;
+        background-color: cyan;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 768px;
+        background-color: pink;
+    }
+    .left-item{
+        padding-right: 0 !important;
+    }
+    .right-item{
+        padding-left: 0 !important;
+    }
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Three</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-3.css">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="bg-light">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="text-center fw-light col-md-12 d-flex justify-content-center flex-column mx-auto">
+                        <img src="../images/image.jpg" alt="" style="width: 70px; height: 70px;"
+                            class="text-center mx-auto my-3 rounded">
+                        <h1 class="fw-semibold fs-2">Checout form</h1>
+                        <p class="lead d-flex justify-content-center">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Provident
+                            accusamus
+                            est Lorem ipsum dolor sit. Lorem ipsum dolor Lorem, ipsum dolor Lorem ipsum dolor Lorem,
+                            ipsum dolor. sit amet.. sit..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="items-container d-flex justify-content-center flex-row-reverse flex-wrap">
+            <div class="right-item col-md-4 px-3">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted">Your Cart</span>
+                    <span class="badge bg-secondary badge-pill">3</span>
+                </h4>
+                <div class="list-group">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="my-0">Product Name</h6>
+                                    <small class="text-muted">Brief description</small>
+                                </div>
+                                <span class="text-muted">10$</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="my-0">Second Product</h6>
+                                    <small class="text-muted">Brief description</small>
+                                </div>
+                                <span class="text-muted">10$</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="my-0">Third item</h6>
+                                    <small class="text-muted">Brief description</small>
+                                </div>
+                                <span class="text-muted">10$</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item bg-light">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-success">
+                                    <h6 class="my-0">Promo Code</h6>
+                                    <small class="">EXAMPLECODE</small>
+                                </div>
+                                <span class="text-success">-15$</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="my-0">Total (USD)</h6>
+                                </div>
+                                <span class="fw-bold bold">15$</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="card p-2 mt-3">
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" placeholder="Promo Code">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="submit">
+                                Reedem
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="left-item col-md-8 px-3">
+                <h4 class="mb-3">Billing Address</h4>
+                <form class="need-validation" novalidate>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="firstname" class="mb-2">First Name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder value required>
+                            <div class="invalid-feedback">Valid first name is required.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastname" class="mb-2">Last Name</label>
+                            <input type="text" class="form-control" id="lastname" placeholder value required>
+                            <div class="invalid-feedback">Valid last name is required.</div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="username" class="mb-2">Username</label>
+                        <div class="input-group">
+                            <div></div>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback" style="width: 100%;">
+                                Your username is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="email" class="mb-2">Email</label>
+                            <input type="email" class="form-control" id="email" autocomplete="email"
+                                placeholder="you@gmail.com" value required>
+                            <div class="invalid-feedback">Valid first name is required.</div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12" class="mb-2">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" autocomplete="address-line1"
+                                placeholder="1234 Main St" value required>
+                            <div class="invalid-feedback">Valid first name is required.</div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="address-second" class="mb-2">Address 2 <small
+                                    class="text-muted">(Optional)</small></label>
+                            <input type="text" class="form-control" id="address-second" autocomplete="street-address"
+                                placeholder="Apartment or Suite" value required>
+                            <div class="invalid-feedback">Valid first name is required.</div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-5">
+                            <label for="country" class="mb-2">Country</label>
+                            <select class="form-select" aria-label="Choose A Country" id="country"
+                                autocomplete="country">
+                                <option selected>Choose country</option>
+                                <option value="1">Turkiye</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="state" class="mb-2">State</label>
+                            <select class="form-select" aria-label="Choose A State" id="state">
+                                <option selected>Choose state</option>
+                                <option value="1">Şanlıurfa</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="zip" class="mb-2">Zip</label>
+                            <input type="text" class="form-control" id="zip" placeholder value required>
+                            <div class="invalid-feedback">Valid last name is required.</div>
+                        </div>
+                    </div>
+                    <hr class="opacity-50 border border-1 my-4">
+                    <div class="col-md-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="flex-check">
+                            <label for="flex-check" class="form-check-label">Shipping address is the same as my billing
+                                address</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="flex-check-2">
+                            <label for="flex-check-2" class="form-check-label">Save this information for next
+                                time</label>
+                        </div>
+                    </div>
+                    <hr class="opacity-50 border border-1 my-4">
+                    <div class="payment-block col-md-12 mb-3">
+                        <h4 class="mb-3">Payment</h4>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="credit-card">
+                            <label class="form-check-label" for="credit-card">
+                                Credit Card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="debit-card"
+                                checked>
+                            <label class="form-check-label" for="debit-card">
+                                Debit Card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="paypal" checked>
+                            <label class="form-check-label" for="paypal">
+                                Paypal
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label for="ccardname" class="mb-2">Name on card</label>
+                            <input type="text" class="form-control" id="ccardname" placeholder value required
+                                autocomplete="cc-name">
+                            <div class="invalid-feedback">Valid card name is required.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="ccardno" class="mb-2">Credit Card Number</label>
+                            <input type="text" class="form-control" id="ccardno" placeholder value required
+                                autocomplete="cc-number">
+                            <div class="invalid-feedback">Valid card number is required.</div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-3 mb-3">
+                            <label for="expiration" class="mb-2">Expiration</label>
+                            <input type="text" class="form-control" id="expiration" placeholder value required
+                                autocomplete="cc-exp">
+                            <div class="invalid-feedback">Valid expiration is required.</div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="cvv" class="mb-2">CVV</label>
+                            <input type="text" class="form-control" id="cvv" placeholder value required
+                                autocomplete="cc-csc">
+                            <div class="invalid-feedback">Valid CVV is required.</div>
+                        </div>
+                    </div>
+                    <hr class="opacity-50 border border-1 my-4">
+                    <div class="col-md-12 d-grid mb-5">
+                        <button class="btn btn-primary btn-block btn-lg" type="submit">Continue to checkout</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">© 2017-2018 Company Name</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-pimary link-offset-1 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Lorem, ipsum.</a></li>
+                <li class="list-inline-item"><a href="#" class="text-primary link-offset-1 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Lorem, ipsum.</a></li>
+                <li class="list-inline-item"><a href="#" class="text-pimary link-offset-1 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Lorem, ipsum.</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
